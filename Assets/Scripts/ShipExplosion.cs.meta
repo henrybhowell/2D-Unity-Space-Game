@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 18b13492692bf43e1b566e14ce7c96b1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mball: {instanceID: 0}
+  - shield: {fileID: 2176241519534309749, guid: 808abba434b134ed6b5e9af1ecb034f7, type: 3}
+  - score: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

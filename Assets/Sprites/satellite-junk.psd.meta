@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: a65cc519d636c4eeaacc266b15926808
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6034725090284878800
+    second: satellite-junk_0
+  - first:
+      213: 6062214607189823726
+    second: satellite-junk_1
+  - first:
+      213: 1266017022317508977
+    second: satellite-junk_2
+  - first:
+      213: 653982055435134962
+    second: satellite-junk_3
+  - first:
+      213: -4336009829630424018
+    second: satellite-junk_4
+  - first:
+      213: 3525907368158260518
+    second: satellite-junk_5
+  - first:
+      213: 3889422295176920304
+    second: satellite-junk_6
+  - first:
+      213: 6926838635498931130
+    second: satellite-junk_7
+  - first:
+      213: 1714545922211523893
+    second: satellite-junk_8
+  - first:
+      213: 2973815233557697502
+    second: satellite-junk_9
+  - first:
+      213: 8917040434196630324
+    second: satellite-junk_10
+  - first:
+      213: 7985686107774070844
+    second: satellite-junk_11
+  - first:
+      213: 8455137582477336509
+    second: satellite-junk_12
+  - first:
+      213: 518411352878601138
+    second: satellite-junk_13
+  - first:
+      213: -8125703842569552626
+    second: satellite-junk_14
+  - first:
+      213: 6625478398458273196
+    second: satellite-junk_15
+  - first:
+      213: -7653277023164649908
+    second: satellite-junk_16
+  - first:
+      213: 1301188271265314027
+    second: satellite-junk_17
+  - first:
+      213: 1923988713461688864
+    second: satellite-junk_18
+  - first:
+      213: -1715679049205395612
+    second: satellite-junk_19
+  - first:
+      213: 1658052360197359521
+    second: satellite-junk_20
+  - first:
+      213: -9067481143345992607
+    second: satellite-junk_21
+  - first:
+      213: 794943278866035138
+    second: satellite-junk_22
+  - first:
+      213: 1795614044777522912
+    second: satellite-junk_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: satellite-junk_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 94
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db319b0f76afb350800000000000000
+      internalID: 6034725090284878800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 126
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0dbb5f010512450800000000000000
+      internalID: 6062214607189823726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 119
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17935de26cbc19110800000000000000
+      internalID: 1266017022317508977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 120
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7e0b7e639631900800000000000000
+      internalID: 653982055435134962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 126
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cc64a780663d3c0800000000000000
+      internalID: -4336009829630424018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 116
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d610ef11a8ee030800000000000000
+      internalID: 3525907368158260518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 87
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc318d68f00af530800000000000000
+      internalID: 3889422295176920304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_7
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 105
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab38d5df903112060800000000000000
+      internalID: 6926838635498931130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 95
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d2384ae6a4bc710800000000000000
+      internalID: 1714545922211523893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_9
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 82
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed31adfe23d154920800000000000000
+      internalID: 2973815233557697502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 4
+        width: 14
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bc518c701bfbb70800000000000000
+      internalID: 8917040434196630324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 87
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3035ad743bd2de60800000000000000
+      internalID: 7985686107774070844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 69
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfdd9285dea65570800000000000000
+      internalID: 8455137582477336509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_13
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 63
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3dbd7f064c13700800000000000000
+      internalID: 518411352878601138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 44
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d7d913863bb3f80800000000000000
+      internalID: -8125703842569552626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 51
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad1127008d62fb50800000000000000
+      internalID: 6625478398458273196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 39
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4eac92a8191ac590800000000000000
+      internalID: -7653277023164649908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 33
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be47ca6b6dfbe0210800000000000000
+      internalID: 1301188271265314027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_18
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02aaeb98a8163ba10800000000000000
+      internalID: 1923988713461688864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 17
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f488baefea038e0800000000000000
+      internalID: -1715679049205395612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_20
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7cf8c36d5920710800000000000000
+      internalID: 1658052360197359521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 51
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c2f4311f5d92280800000000000000
+      internalID: -9067481143345992607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 30
+        width: 18
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5129967, y: 0.43176937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1f46943b4380b00800000000000000
+      internalID: 794943278866035138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satellite-junk_23
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 4
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6aaacc57d4be810800000000000000
+      internalID: 1795614044777522912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
