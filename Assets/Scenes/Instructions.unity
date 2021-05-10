@@ -1336,7 +1336,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Your spaceship has entered the space-junk filled layer of Lower Earth
+  m_Text: 'Your spaceship has entered the space junk filled layer of Lower Earth
     Orbit with a singular goal. Use your experimental BALL to vaporize as much space
     junk as possible...or die trying.
 
@@ -1383,8 +1383,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -218, y: 0.0000038146973}
-  m_SizeDelta: {x: 468.1163, y: 188.8228}
+  m_AnchoredPosition: {x: -218.00003, y: 0.0000038146973}
+  m_SizeDelta: {x: 489.2393, y: 188.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1224997324
 MonoBehaviour:

@@ -19,7 +19,7 @@ public class ComboMult : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if(((Time.time - point_time) > 5.0) && (score.points > 100))
+      if(((Time.time - point_time) > 3.0) && (score.points > 100))
       {
       	score.points = 100;
       }  
