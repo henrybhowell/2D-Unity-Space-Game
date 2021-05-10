@@ -56,7 +56,7 @@ public class ShipExplosion : MonoBehaviour
 
       else if (theCollision.gameObject.name != "Circle" && theCollision.gameObject.name != "Shield(Clone)" && theCollision.gameObject.name != "MultiBall(Clone)"
       && theCollision.gameObject.name != "Bomb"){
-
+	
         Debug.Log(theCollision.gameObject.name);
         go.GetComponent<ShipManeuver>().enabled = false;
         ball.GetComponent<Collider2D>().enabled = false;
