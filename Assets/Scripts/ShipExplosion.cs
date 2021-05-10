@@ -52,6 +52,7 @@ public class ShipExplosion : MonoBehaviour
 
   else if (theCollision.gameObject.name == "PowerUp_Intang(Clone)"){
   		ship_intang = true;
+      go.GetComponent <SpriteRenderer> ().color = new Color (1f, 1f, 1f, 0.5f);
         	Destroy(theCollision.gameObject);
 	 }
 
@@ -70,6 +71,7 @@ public class ShipExplosion : MonoBehaviour
         	SceneManager.LoadScene("StartMenu");
 	   }
 	   ship_intang = false;
+     go.GetComponent <SpriteRenderer> ().color = new Color (1f, 1f, 1f, 1f);
         //Debug.Log(theCollision.gameObject.name);
        }
     }
