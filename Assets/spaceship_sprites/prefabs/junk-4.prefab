@@ -142,7 +142,7 @@ MonoBehaviour:
   score: {fileID: 11400000, guid: 0e3a589f5c504954d9562c7758f1f8da, type: 2}
   powerUpC: {fileID: 347944536339079044, guid: 0f8255506b53fc24da8c3ec8f54bb1c9, type: 3}
   powerUpM: {fileID: 1763716655001293579, guid: 92003aafce858874eb750c8c97510e15, type: 3}
-  powerUpS: {fileID: 2418011267605627937, guid: d34975ad873ee4d70998c99eefab5ee1, type: 3}
+  powerUpI: {fileID: 2418011267605627937, guid: d34975ad873ee4d70998c99eefab5ee1, type: 3}
 --- !u!95 &4938392801637518727
 Animator:
   serializedVersion: 3

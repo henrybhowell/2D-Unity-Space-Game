@@ -8,12 +8,12 @@ public class ShipExplosion : MonoBehaviour
     Animator animator;
 
     string animationState = "ShipState";
-
+    
     public GameObject mball;
 
-    public GameObject shield;
-
     public Score score;
+    
+    public bool ship_intang;
 
     enum CharStates
     {
@@ -26,12 +26,13 @@ public class ShipExplosion : MonoBehaviour
       GameObject go = GameObject.Find ("PlayerBody");
       GameObject ball = GameObject.Find ("Circle");
       animator = go.GetComponent<Animator>();
+      ship_intang = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-    }
+     }
 
     IEnumerator OnCollisionEnter2D(Collision2D theCollision)
     {
@@ -49,25 +50,28 @@ public class ShipExplosion : MonoBehaviour
         	Destroy(theCollision.gameObject);
 	 }
 
-  else if (theCollision.gameObject.name == "PowerUp_Shield(Clone)"){
-	 	Instantiate(shield, theCollision.gameObject.transform.position, Quaternion.identity);
+  else if (theCollision.gameObject.name == "PowerUp_Intang(Clone)"){
+  		ship_intang = true;
         	Destroy(theCollision.gameObject);
 	 }
 
       else if (theCollision.gameObject.name != "Circle" && theCollision.gameObject.name != "Shield(Clone)" && theCollision.gameObject.name != "MultiBall(Clone)"
       && theCollision.gameObject.name != "Bomb"){
-	
-        Debug.Log(theCollision.gameObject.name);
-        go.GetComponent<ShipManeuver>().enabled = false;
-        ball.GetComponent<Collider2D>().enabled = false;
-        animator.SetInteger(animationState, (int) CharStates.ShipExplosion);
-        yield return new WaitForSeconds(3);
-        if (go){
-          Destroy(go);
-        }
-        Destroy(gameObject);
-        SceneManager.LoadScene("StartMenu");
-      }
+	   if(ship_intang == false || theCollision.gameObject.name == "Line" || theCollision.gameObject.name == "Line (1)" || theCollision.gameObject.name == "Line (2)" || theCollision.gameObject.name == "Line(3)")
+	   {
+	   	go.GetComponent<ShipManeuver>().enabled = false;
+        	ball.GetComponent<Collider2D>().enabled = false;
+       	animator.SetInteger(animationState, (int) CharStates.ShipExplosion);
+        	yield return new WaitForSeconds(3);
+        	if (go){
+          		Destroy(go);
+        	}
+        	Destroy(gameObject);
+        	SceneManager.LoadScene("StartMenu");
+	   }
+	   ship_intang = false;
+        //Debug.Log(theCollision.gameObject.name);
+       }
     }
 
     /*private void UpdateState()

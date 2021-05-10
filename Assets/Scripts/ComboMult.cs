@@ -19,7 +19,7 @@ public class ComboMult : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if(((Time.time - point_time) > 3.0) && (score.points > 100))
+      if(((Time.time - point_time) > 5.0) && (score.points > 100))
       {
       	score.points = 100;
       }  
@@ -30,7 +30,7 @@ public class ComboMult : MonoBehaviour
       if(theCollision.gameObject.name != "PlayerBody" || theCollision.gameObject.name != "Line" || theCollision.gameObject.name != "Line (1)" || theCollision.gameObject.name != "Line (2)" || theCollision.gameObject.name != "Line (3)")
       {
         score.points = score.points + 100;
-        Debug.Log(score.points);
+        //Debug.Log(score.points);
         point_time = Time.time;
       }
     }

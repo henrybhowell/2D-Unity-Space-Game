@@ -3516,8 +3516,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mball: {fileID: 5720484247021634875, guid: 6e1ea4f00d8a866418c694d035bea20e, type: 3}
-  shield: {fileID: 2176241519534309749, guid: 808abba434b134ed6b5e9af1ecb034f7, type: 3}
   score: {fileID: 11400000, guid: 0e3a589f5c504954d9562c7758f1f8da, type: 2}
+  ship_intang: 0
 --- !u!1 &1663962518
 GameObject:
   m_ObjectHideFlags: 3

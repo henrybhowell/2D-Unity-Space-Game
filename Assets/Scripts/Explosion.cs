@@ -14,7 +14,7 @@ public class Explosion : MonoBehaviour
     
     public GameObject powerUpM;
 
-    public GameObject powerUpS;
+    public GameObject powerUpI;
 
     enum CharStates
     {
@@ -43,18 +43,18 @@ public class Explosion : MonoBehaviour
         if (powerUpC != null && powerUpM != null )
         {
         	float random = Random.Range(0f, 100f);
-        	if (random < 20f) 
+        	if (random < 30f) 
         	{
         		Instantiate(powerUpC, transform.position, Quaternion.identity);
         	}
-        	else if (random < 40f)
+        	else if (random < 55f)
         	{
         		Instantiate(powerUpM, transform.position, Quaternion.identity);
         	}
 
-          else if (random < 60f)
+          else if (random < 70f)
         	{
-        		Instantiate(powerUpS, transform.position, Quaternion.identity);
+        		Instantiate(powerUpI, transform.position, Quaternion.identity);
         	}
         }
 
